@@ -48,7 +48,7 @@ elif len(sys.argv)==2:
   print_cal(y,m)
 
 elif len(sys.argv)==3:
-  m, y = sys.argv[1:]
+  m,y = sys.argv[1:]
   print_cal(y,m)
   
 else:
