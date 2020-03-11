@@ -21,6 +21,7 @@ class Waypoint(LatLon):
     def __str__(self):
         d = self.__dict__
         return '\n'.join([f'{key} = {d.get(key)}' for key in d])
+        # return str(vars(self))
 
 # Make a class Geocache that can be passed parameters `name`, `difficulty`,
 # `size`, `lat`, and `lon` to the constructor. What should it inherit from?
